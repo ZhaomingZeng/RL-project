@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-05 11:08:22 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/zhaomingzeng/Desktop/research project/transit_RL project 1/Coding/SUMO config/002.net.xml"/>
+        <route-files value="/Users/zhaomingzeng/Desktop/research project/transit_RL project 1/Coding/SUMO config/002.rou.xml"/>
+        <additional-files value="/Users/zhaomingzeng/Desktop/research project/transit_RL project 1/Coding/SUMO config/002.add.xml"/>
+    </input>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="386.00" id="loop_3" nVehContrib="4" flow="37.31" occupancy="43.21" speed="1.11" harmonicMeanSpeed="0.77" length="12.00" nVehEntered="4"/>

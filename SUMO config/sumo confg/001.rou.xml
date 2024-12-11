@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-30 16:08:59 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="t_0" vClass="bus" color="yellow"/>
+
+    <vType id="t_1" vClass="bus" color="red" speedFactor="norm(6,0.3)" accel="10" />
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+
+
+    <flow id="f_0" type="t_0" begin="50.00" from="E0" to="E3" line="bus" via="E1 E2"  end="1600.00" vehsPerHour="40">
+        <stop busStop="bs_0" duration="20"/>
+        <stop busStop="bs_1" duration="20"/>
+        <stop busStop="bs_2" duration="20"/>
+        <stop busStop="bs_3" duration="20"/>
+    </flow>
+
+    <flow id="f_1" type="t_1" begin="60.00" from="E0" to="E3" line="bus1" via="E1 E2"  end="1610.00" vehsPerHour="40">
+        <stop busStop="bs_0" duration="5"/>
+        <stop busStop="bs_1" duration="5"/>
+        <stop busStop="bs_2" duration="5"/>
+        <stop busStop="bs_3" duration="5"/>
+    </flow>
+    <personFlow id="pf_0" begin="0.00" end="1500.00" personsPerHour="800">
+        <walk from="E0" busStop="bs_0" />
+        <!-- <ride busStop="bs_2" lines="bus" /> -->
+        <ride from="E0" busStop="bs_2"/>
+        <walk to="E2"/>
+    </personFlow>
+
+</routes>

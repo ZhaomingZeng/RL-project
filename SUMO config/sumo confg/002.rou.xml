@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-01 15:04:55 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_RAILTYPE" vClass="bus"/>
+    <vType id="t_0" desiredMaxSpeed="10.00" speedFactor="normc(0.8,0.00)" vClass="bus" color="yellow"/>
+    <vType id="t_1" desiredMaxSpeed="10.00" speedFactor="normc(1.40,0.00)" vClass="bus" color="red"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_0" type="t_0" depart="0.00" line="bus" from="E0" to="E3" >
+        <stop busStop="bs_1" duration="10"/>
+        <stop busStop="bs_2" duration="5"/>
+        <stop busStop="bs_3" duration="10"/>
+        <stop busStop="bs_4" duration="5"/>
+    </trip>
+
+    <trip id="t_1" type="t_1" depart="40.00" from="E0" to="E3" line="bus" via="E1 E2">
+        <stop busStop="bs_1" duration="40"/>
+        <stop busStop="bs_2" duration="5"/>
+        <stop busStop="bs_3" duration="40"/>
+        <stop busStop="bs_4" duration="5"/>
+    </trip>
+
+    <trip id="t_2" type="t_0" depart="80.00" from="E0" to="E3" line="bus" via="E1 E2">
+        <stop busStop="bs_1" duration="10"/>
+        <stop busStop="bs_2" duration="5"/>
+        <stop busStop="bs_3" duration="10"/>
+        <stop busStop="bs_4" duration="5"/>
+    </trip>
+
+    <trip id="t_3" type="t_1" depart="120.00" from="E0" to="E3" line="bus" via="E1 E2">
+        <stop busStop="bs_1" duration="50"/>
+        <stop busStop="bs_2" duration="5"/>
+        <stop busStop="bs_3" duration="70"/>
+        <stop busStop="bs_4" duration="5"/>
+    </trip>
+
+</routes>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-01 14:53:50 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_0" lane="E0_1" startPos="0.00" endPos="20.00" personCapacity="20"/>
+    <busStop id="bs_1" lane="E1_1" startPos="0.00" endPos="20.00" personCapacity="20" />
+    <busStop id="bs_2" lane="E2_1" startPos="0.00" endPos="20.00" personCapacity="20"  />
+    <busStop id="bs_3" lane="E3_1" startPos="0.00" endPos="20.00" personCapacity="20"  />
+    <busStop id="bs_4" lane="E3_1" startPos="280.00" personCapacity="20" />
+    
+    <inductionLoop id="loop_0" lane="E0_1" pos="0.00" length="20" file="out_0.xml"/>
+    <inductionLoop id="loop_1" lane="E1_1" pos="0.00" length="20" file="out_1.xml"/>
+    <inductionLoop id="loop_2" lane="E2_1" pos="0.00"  length="20" file="out_2.xml"/>
+    <inductionLoop id="loop_3" lane="E3_1" pos="0.00" length="20" file="out_3.xml"/>
+    <inductionLoop id="loop_4" lane="E3_1" pos="280.00" length="20" file="out_4.xml"/>
+</additional>
